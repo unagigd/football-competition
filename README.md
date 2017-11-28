@@ -1,1 +1,1 @@
-# react-football-table
+# Small React application for managing football competition
