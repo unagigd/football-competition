@@ -12,10 +12,10 @@ class Game extends Component {
     return (
       <section>
         <span>
-          <Input label={ host.name } defaultValue={host.goals} type="number" />
+          <Input label={ host.team.name } value={host.scored} />
         </span>
         <span>
-          <Input label={ guest.name } defaultValue={guest.goals} />
+          <Input label={ guest.team.name } value={guest.scored} />
         </span>
       </section>
     )
